@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Portifolio</title>
+  </head>
+  <body>
+    <div class="particulas"></div>
+
+
+
+    <nav class="navegação">
+      <ul class="menu">
+        <li>
+          <a href="#Inicio" class="menu-link">Inicio</a>
+        </li>
+        <li>
+          <a href="#Sobre" class="menu-link">Sobre</a>
+        </li>
+        <li>
+          <a href="#Projetos" class="menu-link">Projetos</a>
+        </li>
+        <li>
+          <a href="#Contatos" class="menu-link">Contatos</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main id="Inicio" class="cabeçalho">
+      <img
+        src="img/20260404_005038.jpg"
+        height="200"
+        alt="Foto de José"
+        class="foto-perfil"
+      />
+      <h1>José Augusto</h1>
+      <p class="cabeçalho-sub-titulo">Desenvolvedor Web</p>
+    </main>
+
+    <section id="Sobre" class="Sobre">
+      <h2 class="Sobre-titulo">Sobre MIm</h2>
+      <div class="Sobre-caixa">
+        <p class="Sobre-Paragrafo">
+          Atualmente, estou cursando o segundo semestre de Análise e
+          Desenvolvimento de Sistemas na UNISO – Cidade Universitária de
+          Sorocaba, com previsão de conclusão em 2027. Durante minha formação
+          acadêmica, venho desenvolvendo conhecimentos fundamentais em
+          programação e tecnologia, com foco em HTML, CSS, JavaScript, Python e
+          Java, além de noções básicas em banco de dados MySQL. Complementando
+          minha formação, realizei cursos de Excel e Power BI pela Edune Cursos,
+          além de cursos voltados ao desenvolvimento web pela plataforma
+          Coursera em parceria com a Meta, e também formação em Python pelo
+          Santander. Possuo ainda conhecimento intermediário em ferramentas do
+          pacote Office, como Word e PowerPoint. Embora eu ainda não possua
+          experiência profissional formal, estou altamente motivado a aprender,
+          desenvolver novas habilidades e contribuir com dedicação e
+          responsabilidade para a equipe. Tenho facilidade de aprendizado,
+          interesse constante por tecnologia e estou em busca de uma
+          oportunidade que me permita crescer profissionalmente na área de TI.
+        </p>
+      </div>
+    </section>
+
+    <section id="Projetos" class="Projetos">
+      <h2 class="Projetos-Titulo">Meus Projetos</h2>
+      <div class="Projetos-Caixa">
+        <div class="Projetos-Card">
+          <img
+            src="img/Fanta.png"
+            height="500"
+            alt="Projeto 1"
+            class="projetos-imagem"
+          />
+          <div class="caixa-textos-projetos">
+            <h3 class="info-projetos">Fanta</h3>
+            <p class="paragrafo-projetos">
+              Projeto de Desenvolvimento Web Utilizando HTML, CSS e JavaScript
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Contatos" class="Contatos">
+      <h2 class="Contatos-titulo">Entre em Contato</h2>
+
+      <form class="Formulario-Contato" id="Formulario" onsubmit="enviarWhatsApp(event)">
+
+        <div class="grupo-form">
+          <input placeholder="Nome" class="campo-form" id="nome" />
+        </div>
+
+        <div class="grupo-form">
+          <textarea class="campo-form" placeholder="Digite sua Mensagem" rows="6" id="mensagem"></textarea>
+        </div>
+
+        <button type="submit" class="botão-form">Enviar WhatsApp</button>
+      </form>
+    </section>
+
+    <script>
+        function enviarWhatsApp(event) {
+
+          event.preventDefault()
+      
+          const nome = document.getElementById('nome').value;
+          const mensagem = document.getElementById('mensagem').value;
+          const telefone = '5515991749522';
+
+          const texto = `Olá! Me chamo ${nome}, ${mensagem}`;
+          const msgFormatada = encodeURIComponent(texto);
+
+          const url = `https://wa.me/${telefone}?text=${msgFormatada}`;
+
+          window.open(url, '_blank');
+
+        }
+
+    </script>
+
+
+
+  </body>
+</html>
+
+
