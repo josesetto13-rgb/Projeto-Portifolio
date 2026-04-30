@@ -10,4 +10,12 @@ Este site foi construído com foco em **performance** e **design limpo**, utiliz
 - **JavaScript** (para interatividades)
 
 ## 🌐 Link do Site
-[CLIQUE AQUI PARA ACESSAR O PORTFÓLIO](SEU_LINK_AQUI)
+[CLIQUE AQUI PARA ACESSAR O PORTFÓLIO](2. Atualize o seu README no VS Code
+Agora vamos consertar aquele link que deu erro antes:
+
+Abra o seu arquivo README.md no VS Code.
+
+Procure a linha do link e deixe-a assim (colando o seu link entre os parênteses):
+[CLIQUE AQUI PARA ACESSAR O PORTFÓLIO](https://josesetto13-rgb.github.io/Projeto-Portifolio/)
+
+Salve o arquivo (Ctrl + S).)
