@@ -1,6 +1,24 @@
 # 💻 Meu Portfólio Profissional
 
-Bem-vindo ao repositório do meu portfólio! Este projeto foi desenvolvido para centralizar meus trabalhos e competências técnicas.
+🚀 Sobre Mim
+Olá! Eu sou o José Augusto de Oliveira Setto. Tenho 19 anos e sou um entusiasta da tecnologia em constante evolução. Atualmente, curso Análise e Desenvolvimento de Sistemas, onde busco transformar desafios lógicos em soluções reais através do código.
+
+Minha jornada na programação é movida pela curiosidade e pela vontade de aprender sempre mais. Acredito que a tecnologia é uma ferramenta poderosa para criar impacto, e dedico meu tempo ao estudo e ao desenvolvimento de projetos que consolidem meu conhecimento.
+
+🛠️ Habilidades Técnicas
+Front-end: Conhecimentos básicos em HTML5, CSS3 e JavaScript.
+
+Back-end & Dados: Noções de lógica com Python e manipulação de bancos de dados MySQL.
+
+📜 Certificações
+Busco constantemente me especializar através de cursos de referência no mercado:
+
+Python: Certificado pelo Santander My Academy.
+
+Front-End Development (HTML, CSS e JS): Certificado pela Meta através da plataforma Coursera.
+
+🎯 Objetivos
+Estou focado em aprofundar meus conhecimentos no ecossistema do desenvolvimento de software, explorando novas ferramentas e contribuindo com projetos de código aberto. Sou motivado pela resolução de problemas e pela busca contínua por excelência técnica.
 
 ## 🚀 Sobre o Projeto
 Este site foi construído com foco em **performance** e **design limpo**, utilizando tecnologias modernas de desenvolvimento web.
